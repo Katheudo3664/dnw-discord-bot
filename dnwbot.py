@@ -50,6 +50,7 @@ class DNWBot(discord.Client):
             'Ahoy {}',
             'Welcome back, {}',
             '{} \o/'
+            '{} Bork bork bork!'
         ]
 
         content = message.content.lower().translate(string.punctuation).strip()
